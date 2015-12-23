@@ -103,7 +103,7 @@ exports.config = {
   //
   // Gets executed before all workers get launched.
   onPrepare: function () {
-    // do something
+    console.log(`Beginning test cases`)
   },
   //
   // Gets executed before test execution begins. At this point you will have access to all global

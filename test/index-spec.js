@@ -2,7 +2,6 @@ var chai = require('chai'),
   assert = chai.assert
 
 describe('my webdriverio tests', function () {
-  this.timeout(99999999)
 
   it('Github test', function (done) {
     browser

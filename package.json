@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "get-selenium": "curl -O http://selenium-release.storage.googleapis.com/2.48/selenium-server-standalone-2.48.2.jar",
-    "start-selenium": "java -jar selenium-server-standalone-2.48.2.jar",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "java -jar selenium-server-standalone-2.48.2.jar",
+    "test": "wdio"
   },
   "author": "",
   "license": "ISC",
