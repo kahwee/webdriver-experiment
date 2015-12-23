@@ -1,0 +1,8 @@
+*.jar
+node_modules
+bower_components
+npm-debug.log
+.idea/
+coverage/
+assets.json
+.DS_Store

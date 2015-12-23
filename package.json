@@ -1,0 +1,17 @@
+{
+  "name": "test-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "get-selenium": "curl -O http://selenium-release.storage.googleapis.com/2.47/selenium-server-standalone-2.47.0.jar",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4",
+    "webdriverio": "^3.3.0"
+  }
+}
